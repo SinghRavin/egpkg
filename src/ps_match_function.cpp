@@ -4,7 +4,9 @@ using namespace Rcpp;
 //' Propensity Score Matching
 //' @return A list with match_id and match_x
 //' @examples
-//' ps_match3_function(runif(100))
+//' set.seed(199)
+//' x<-runif(10)
+//' ps_match3(x)
 //' @export
 // [[Rcpp::export]]
 List ps_match3(const NumericVector & x) {
