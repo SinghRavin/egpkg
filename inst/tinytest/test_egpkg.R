@@ -16,6 +16,6 @@ ps_matchR <- function(x) {
 }
 
 expect_equal(
-  ps_matchR,
-  ps_match3
+  ps_matchR(x),
+  ps_match3(x)
 )

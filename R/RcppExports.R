@@ -3,6 +3,8 @@
 
 #' Propensity Score Matching
 #' @return A list with match_id and match_x
+#' @param
+#' x is the input vector to the function
 #' @examples
 #' set.seed(199)
 #' x<-runif(10)

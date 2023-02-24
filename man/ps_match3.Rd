@@ -6,6 +6,9 @@
 \usage{
 ps_match3(x)
 }
+\arguments{
+\item{x}{is the input vector to the function}
+}
 \value{
 A list with match_id and match_x
 }
